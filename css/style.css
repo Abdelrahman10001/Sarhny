@@ -1,0 +1,350 @@
+:root {
+  --color-main: #F1776C;
+  --bs-body-bg: none;
+  --bs-border-color: none ;
+}
+
+.accordion{
+  border-color: none !important;
+  background-color: none !important;
+}
+
+.main-colllor{
+  --color-main: #F1776C;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif
+}
+
+body {
+  margin: 0;
+}
+
+
+.signPage {
+  background-image: url(../images/sarbgrrrr.jpg);
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+nav {
+  background-color: #525355c1 !important;
+  position: fixed;
+  z-index: 3;
+
+}
+
+nav .h3 {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: var(--color-main);
+}
+
+.navbar-nav .nav-link.active {
+  color: white
+}
+
+.navbar-nav .nav-link.active:hover {
+  color: var(--color-main)
+}
+
+.nav-link:focus {
+  color: white
+}
+
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  background-color: var(--color-main);
+  height: 2px;
+  width: 0px;
+  transition: width 0.5s;
+}
+
+.nav-link:hover:after {
+  width: 73%;
+}
+
+
+#home1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.807), rgba(0, 0, 0, 0.83)),url(../images/sarbgrrrr.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header-content p {
+  color: #B5B4B5
+}
+
+.about .hovv {
+  transition: all 0.5s;
+}
+
+.hovv:hover {
+  transform: scale(1.05);
+  box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+.how-pic {
+  transition: all 0.5s;
+}
+
+.how-pic:hover {
+  transform: rotatey(180deg);
+}
+
+
+
+.mobil-vipe:hover {
+  animation: shake 1s ease 0s infinite normal none;
+}
+
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+
+
+
+.download .zeromargin {
+  margin-left: -30px;
+  margin-right: -30px;
+
+}
+
+
+
+.main-box {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+h1 {
+  color: #17A2B8;
+}
+
+.btn-outline-info {
+  color: rgb(23, 162, 184);
+  background-color: transparent;
+  background-image: none;
+  border-color: rgb(23, 162, 184);
+}
+
+.btn-outline-info:hover {
+  color: white
+}
+
+input::placeholder
+
+/* ,textarea::placeholder */
+  {
+  color: rgb(0, 0, 0) !important;
+}
+
+input:focus {
+  box-shadow: none !important;
+}
+
+input {
+  color: rgb(0, 0, 0) !important;
+}
+
+
+
+.top {
+  padding: 3rem;
+  /* background-color: rgb(194, 156, 156); */
+}
+
+
+.top h3 {
+  color: var(--color-main);
+
+}
+
+.top img {
+  width: 200px;
+}
+
+
+.ship {
+  margin-top: -1.7rem;
+  background-color: #88a0cc;
+}
+
+.bigger {
+  max-width: 600px;
+  margin-top: -20px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.bigger2 {
+  max-width: 580px;
+  background-color: white;
+}
+
+
+.linksBox {
+  background-color: #F7F7F7;
+  max-width: 600px;
+
+}
+
+
+.rule {
+  display: table;
+  max-width: 100%;
+}
+
+.rule>div {
+  display: table-cell;
+  white-space: nowrap;
+}
+
+.line {
+  width: 50%;
+  vertical-align: middle;
+}
+
+.line>div {
+  border-bottom: 0.5px solid silver;
+  height: 0.5px;
+}
+
+
+
+
+.faceBook {
+  background-color: #4267B2;
+  color: white;
+}
+
+.Google {
+  background-color: #DB4437;
+  color: white;
+}
+
+
+
+.faceBook:hover {
+  background-color: #1d4491;
+  color: white;
+}
+
+.btn:first-child:active {
+  background-color: #4e77c9;
+  color: white;
+}
+
+.Google:hover {
+  background-color: #c92b1d;
+  color: white;
+}
+
+.Google:active {
+  background-color: #1dd85b;
+  color: white;
+}
+
+
+.omg {
+  width: 110%;
+}
+
+
+.instractionFluch {
+
+  max-width: 600px;
+}
+
+
+.accordion-button {
+  background-color: #1D628B;
+  color: white;
+
+}
+
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+  border-radius: 50px;
+}
+
+
+#flush-collapseOne{
+  border-radius: 20px;
+}
+
+
+footer img{
+transition: all ;
+}
+footer img:hover{
+transform: scale(1.1);
+}
+
+.footImg{
+  width: 30px;
+}
