@@ -129,3 +129,7 @@ function wrongINputs() {
     valid.classList.add("d-none")
 }
 
+
+
+
+
